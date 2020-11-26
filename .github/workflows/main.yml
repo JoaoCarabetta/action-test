@@ -16,6 +16,6 @@ jobs:
           echo '${{ steps.file_changes.outputs.files_modified}}'
           echo '${{ steps.file_changes.outputs.files_added}}'
           echo '${{ steps.file_changes.outputs.files_removed}}'
-      - uses: basedosdados/action-add-to-cloudtask@v1.4.10
+      - uses: basedosdados/action-add-to-cloudtask@v1.4.11
         with:
           myInput: world
