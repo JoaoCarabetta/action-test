@@ -9,7 +9,7 @@ jobs:
           # Format of the steps output context.
           # Can be 'space-delimited', 'csv', or 'json'.
           # Default: 'space-delimited'
-          format: ''
+          format: 'json'
       - uses: basedosdados/action-add-to-cloudtask@v1.4.7
         with:
           myInput: world
